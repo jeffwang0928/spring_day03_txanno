@@ -16,6 +16,8 @@ public class User {
 		this.password = password;
 	}
 	
+	
+	//Test Git
 	@Override
 	public String toString() {
 		return "User [username=" + username + ", password=" + password + "]";
