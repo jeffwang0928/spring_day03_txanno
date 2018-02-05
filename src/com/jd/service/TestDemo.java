@@ -10,7 +10,7 @@ public class TestDemo {
 	public void testOrders(){
 		ApplicationContext aContext = new ClassPathXmlApplicationContext("bean1.xml");
 		OrdersService service = (OrdersService) aContext.getBean("ordersService");
-		//����
+		//调用测试编码字符集
 		service.accountMoney();
 	}
 }
