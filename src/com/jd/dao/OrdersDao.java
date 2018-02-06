@@ -11,12 +11,12 @@ public class OrdersDao {
 
 	public void lessMoney(){
 		String sql = "update account set salary=salary-? where username=?";
-		jdbcTemplate.update(sql,1000,"小王");
+		jdbcTemplate.update(sql,1000,"灏忕帇");
 	}
 	
 	public void moreMoney(){
 		String sql = "update account set salary=salary+? where username=?";
-		jdbcTemplate.update(sql,1000,"小马");
+		jdbcTemplate.update(sql,1000,"灏忛┈");
 	}
 	
 }

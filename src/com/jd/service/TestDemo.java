@@ -3,6 +3,8 @@ package com.jd.service;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.transaction.annotation.Transactional;
+
 
 public class TestDemo {
 	
